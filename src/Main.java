@@ -38,7 +38,7 @@ public class Main {
 
         // 3rd task
         System.out.println();
-        for (int i = 2; i >= 0; i--) {
+        for (int i = nums.length - 1; i >= 0; i--) {
             System.out.print(nums[i]);
             if (i > 0) {
                 System.out.print(", ");
@@ -46,7 +46,7 @@ public class Main {
         }
 
         System.out.println();
-        for (int j = 2; j >= 0; j--) {
+        for (int j = fractions.length - 1; j >= 0; j--) {
             System.out.print(fractions[j]);
             if (j > 0) {
                 System.out.print(", ");
@@ -54,7 +54,7 @@ public class Main {
         }
 
         System.out.println();
-        for (int k = 2; k >= 0; k--) {
+        for (int k = letters.length - 1; k >= 0; k--) {
             System.out.print(letters[k]);
             if (k > 0) {
                 System.out.print(", ");

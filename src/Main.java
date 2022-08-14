@@ -63,10 +63,13 @@ public class Main {
 
         // 4th task
         // Кароче, так и не понял, как это всё правильно вывести
+        // Подсказали, теперь понял как)
         System.out.println();
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] % 2 != 0) {
                 System.out.print(nums[i] + 1 + ", ");
+            } else {
+                System.out.print(nums[i] + ", ");
             }
         }
     }

@@ -63,13 +63,15 @@ public class Main {
 
         // 4th task
         // Кароче, так и не понял, как это всё правильно вывести
-        // Подсказали, теперь понял как)
+        // Подсмотрел в разборе, не понял, почему nums[i] % 2 == 1
         System.out.println();
         for (int i = 0; i < nums.length; i++) {
-            if (nums[i] % 2 != 0) {
-                System.out.print(nums[i] + 1 + ", ");
-            } else {
-                System.out.print(nums[i] + ", ");
+            if (nums[i] % 2 == 1) {
+                nums[i]++;
+            }
+            System.out.print(nums[i]);
+            if (i != nums.length - 1) {
+                System.out.print(", ");
             }
         }
     }
